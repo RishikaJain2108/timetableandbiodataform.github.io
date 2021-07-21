@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Time Table</title>
+  </head>
+  <body>
+    <h1>My TimeTable</h1>
+    <table border='1px'>
+      <tr>
+        <th>Days/Periods</th>
+        <th>1</th>
+        <th>2</th>
+        <th>3</th>
+        <th> </th>
+        <th>4</th>
+        <th>5</th>
+        <th>6</th>
+      </tr>
+      <tr>
+      <td>Mon</td>
+      <td>Science</td>
+      <td>English</td>
+      <td>Hindi</td>
+      <td rowspan="6">B<br />R<br />E<br />A<br />K</td>
+      <td>Maths</td>
+      <td>Games</td>
+      <td>Moral Science</td>
+      </tr>
+      <tr>
+      <td>Tue</td>
+      <td>Science</td>
+      <td>English</td>
+      <td>Hindi</td>
+      <td>Maths</td>
+      <td>Games</td>
+      <td>Moral Science</td>
+      </tr>
+      <tr>
+      <td>Wed</td>
+      <td>Science</td>
+      <td>English</td>
+      <td rowspan="3">Hindi</td>
+      <td>Maths</td>
+      <td>Games</td>
+      <td>Moral Science</td>
+      </tr>
+      <tr>
+      <td>Thur</td>
+      <td>Science</td>
+      <td>English</td>
+
+      <td>Maths</td>
+      <td>Games</td>
+      <td>Moral Science</td>
+      </tr>
+      <tr>
+      <td>Fri</td>
+      <td>Science</td>
+      <td>English</td>
+
+      <td>Maths</td>
+      <td>Games</td>
+      <td>Moral Science</td>
+      </tr>
+      <tr>
+      <td>Sat</td>
+      <td>Science</td>
+      <td>English</td>
+      <td>Hindi</td>
+      <td colspan="3">Maths</td>
+
+      </tr>
+      <tr>
+        <td colspan="8"><center>This is Class VII</center></td>
+      </tr>
+
+    </table>
+    <h1> My Bio Data</h1>
+    <form>
+  <fieldset>
+    <legend>Personal Information</legend>
+    <label for="fname">First name:</label>
+  <input type="text" id="fname" name="fname" placeholder="First Name">
+  <label for="lname">Last name:</label>
+  <input type="text" id="lname" name="lname" placeholder="Last Name"><br><br>
+  <label>Male</label>
+  <input type="radio">
+  <label>Female</label>
+  <input type="radio">
+  <label>Others</label>
+  <input type="radio"><br /><br />
+  <label for="dob">Date of Birth</label>
+  <input type="date" id="dob" name="dob"><br><br>
+  <label for="email">Email:</label>
+  <input  type="email" id="email" name="email" placeholder="Enter Your Email Id"><br><br>
+  <label for="no.">Phone</label>
+  <input  type="tel" id="no." name="no." placeholder="+91"><br /><br />
+  <label>Height</label>
+  <input type="text" placeholder="Height in Feet"><br /><br />
+
+  </fieldset>
+  <fieldset>
+    <legend>Education</legend>
+    <label for="sname">School Name:</label>
+    <input type="text" id="sname" name="sname" placeholder="school name"><br /><br />
+    <label for="class">Class:</label>
+    <input type="text" id="class" name="class" placeholder="Enter Class"><br /><br />
+    <label for="stream">Stream:</label>
+    <select id="stream" name="stream" placeholder="stream">
+    <option value="Cse">Cse</option>
+    <option value="It">IT</option>
+    <option value="Mechanical">Mechanical</option>
+    <option value="Electrical">Electrical</option>
+  </select><br /><br />
+    <label for="sheet">Marksheet:</label>
+    <input type="file" id="sheet" name="sheet"><br /><br />
+
+  </fieldset>
+  <br />
+  <input type="submit" value="Submit">
+  </form>
+
+
+  </body>
+</html>
